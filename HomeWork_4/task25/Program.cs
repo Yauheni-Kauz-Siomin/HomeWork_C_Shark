@@ -12,7 +12,7 @@ int b = Convert.ToInt32(Console.ReadLine());
 int result = 1;
 for (int i = 0; i < b; i++)
 {
-   result = result * a;
+    result = result * a;
 
- }
-    Console.WriteLine($"Число {a} в степени {b} равняется {result}");
+}
+Console.WriteLine($"Число {a} в степени {b} равняется {result}");
