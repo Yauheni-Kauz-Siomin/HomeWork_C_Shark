@@ -17,15 +17,15 @@ for (int i = 0; i < b; i++)
 }
 Console.WriteLine($"Число {a} в степени {b} равняется {result}");
 
-// решение задачи без использования функции
+// решение задачи без использования функции 
 
 
 Console.Clear();
 Console.WriteLine("Введите первое число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int a1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Число {a} в степени {b} равняется {Result(a, b)}");
+int b1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Число {a1} в степени {b1} равняется {Result(a1, b1)}");
 int Result(int num1, int num2)
 {
     int result = 1;
