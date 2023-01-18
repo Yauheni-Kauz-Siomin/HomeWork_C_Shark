@@ -4,7 +4,7 @@
 
 2, 4 -> 16 */
 
-Console.Clear();
+/* Console.Clear();
 Console.WriteLine("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
@@ -15,7 +15,7 @@ for (int i = 0; i < b; i++)
     result = result * a;
 
 }
-Console.WriteLine($"Число {a} в степени {b} равняется {result}");
+Console.WriteLine($"Число {a} в степени {b} равняется {result}"); */
 
 // решение задачи без использования функции
 
