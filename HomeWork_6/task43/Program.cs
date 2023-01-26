@@ -24,5 +24,5 @@ void GetPoints()
 {
     double x = (b2 - b1) / (k1 - k2);
     double y = k1 * x + b1;
-    Console.WriteLine($"Две прямые пересекутся в точке с координатами X: {x}, Y: {y}");
+    Console.WriteLine($"Две прямые пересекутся в точке с координатами X: {Math.Round(x, 3)}, Y: {Math.Round(y, 3)}");
 }

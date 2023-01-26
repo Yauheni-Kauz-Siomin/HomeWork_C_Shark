@@ -6,18 +6,19 @@
 Console.Clear();
 Console.WriteLine("Введите несколько чисел через пробел или запятую:");
 int[] numbers = Console.ReadLine().Split(' ', ',').Select(e => Convert.ToInt32(e)).ToArray(); // способ перевода был на лекции
-// Console.WriteLine(String.Join(" ", numbers)); проверка выводится ли массива уже из чисел
+// Console.WriteLine(String.Join(" ", numbers)); проверка выводится ли массив уже из чисел
 Console.WriteLine($"Количество введенных пользователем положительных чисел составляет {SumPositiveNumbers(numbers)}");
 
 
 int SumPositiveNumbers(int[] array)
 {
     int sum = 0;
-      for (int i = 0; i < array.Length; i++)
+    foreach (int item in array)
     {
-        if (array[i] > 0) sum++;
+        if(item > 0) sum++;
     }
     return sum;
+
 }
 
 
