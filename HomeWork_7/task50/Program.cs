@@ -14,7 +14,6 @@ Console.WriteLine();
 int[,] numbers = new int[10, 10];
 FillArray(numbers);
 PrintArray(numbers);
-Console.WriteLine();
 
 // проверка нахождения элемента
 
