@@ -5,10 +5,8 @@ m = 3, n = 4.
 8 7,8 -7,1 9 */
 
 Console.Clear();
-Console.WriteLine("Введите количество строк двумерного массива m:");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите количество столбцов двумерного массива n:");
-int n = Convert.ToInt32(Console.ReadLine());
+int m = ReadInt("Введите количество строк двумерного массива m:");
+int n = ReadInt("Введите количество столбцов двумерного массива n:");
 double[,] numbers = new double[m, n];
 GetArray(numbers);
 PrintArray(numbers);
@@ -35,4 +33,10 @@ void PrintArray(double[,] inArray)
         }
         Console.WriteLine();
     }
+}
+
+int ReadInt(string message)
+{
+    Console.WriteLine(message);
+    return Convert.ToInt32(Console.ReadLine());
 }
