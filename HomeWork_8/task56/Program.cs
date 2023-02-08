@@ -12,8 +12,9 @@
 int[,] numbers = new int[4, 4];
 FillArray(numbers);
 PrintArray(numbers);
-Console.WriteLine($"Номер строки с наименьшей суммой элементов: {MinSumNumbersRow(numbers)} строка");
-
+Console.WriteLine(
+    $"Номер строки с наименьшей суммой элементов: {MinSumNumbersRow(numbers)} строка"
+);
 
 void FillArray(int[,] array)
 {
