@@ -7,12 +7,12 @@
 
 
 Console.Clear();
-int size = 4;
+int size = 5;
 int[,] numbers = new int[size, size];
 int num = 1;
 int i = 0;
 int j = 0;
-
+num.ToString().PadLeft(2, '0');
 while (num <= size * size)
 {
     numbers[i, j] = num;
@@ -28,6 +28,7 @@ while (num <= size * size)
 }
 
 PrintArray(numbers);
+
 
 void PrintArray(int[,] array)
 {
